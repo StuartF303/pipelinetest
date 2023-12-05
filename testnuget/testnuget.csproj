@@ -11,5 +11,6 @@
      <Product>Pipeline Test</Product>
      <Description>A Simple Pipleline Test</Description>
      <Copyright>Copyright © 2023</Copyright>
+     <PackageId>PipelineTestSF</PackageId>
   </PropertyGroup>
 </Project>
