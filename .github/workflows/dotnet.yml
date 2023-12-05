@@ -31,4 +31,4 @@ jobs:
     - name: Build Nuget
       run: dotnet pack -c Release 
     - name: Push Nuget
-      run: dotnet nuget push *.nupkg  -k ${{secrets.NUGET_APIKEY}} -s https://api.nuget.org/v3/index.json --skip-duplicate
+      run: dotnet nuget push testnuget/bin/Release/*.nupkg  -k ${{secrets.NUGET_APIKEY}} -s https://api.nuget.org/v3/index.json --skip-duplicate
