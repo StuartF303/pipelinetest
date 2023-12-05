@@ -31,4 +31,4 @@ jobs:
     - name: Build Nuget
       run: dotnet pack -c Release 
     - name: Push Nuget
-      run: dotnet nuget push 
+      run: dotnet nuget push -k ${{secrets.NUGET_APIKEY}} --skip-duplicate
