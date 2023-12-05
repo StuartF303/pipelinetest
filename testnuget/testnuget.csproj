@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -10,9 +9,7 @@
      <Company>Self</Company>
      <Authors>S.Fraser</Authors>
      <Product>Pipeline Test</Product>
-     <Description />
-     A test Project
+     <Description>A Simple Pipleline Test</Description>
      <Copyright>Copyright © 2023</Copyright>
-     </PropertyGroup>
-
+  </PropertyGroup>
 </Project>
